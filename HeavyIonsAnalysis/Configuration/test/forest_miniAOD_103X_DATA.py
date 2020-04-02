@@ -113,6 +113,8 @@ process.load("TrackingTools.TransientTrack.TransientTrackBuilder_cfi")
 ################################
 
 # tracks
+process.load("HeavyIonsAnalysis.TrackAnalysis.TrackAnalyzers_cff")
+
 
 ################################
 
@@ -122,8 +124,8 @@ process.load("TrackingTools.TransientTrack.TransientTrackBuilder_cfi")
 
 # main forest sequence
 process.forest = cms.Path(
-    process.HiForestInfo
-    +
+    process.HiForestInfo +
+    process.trackSequencePbPb +
     process.ggHiNtuplizer
     )
 
