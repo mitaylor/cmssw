@@ -51,8 +51,8 @@ samples=(
 
 # setup foresting configs
 configs=(
-   runForestAOD_pp_MC_94X.py
-   runForestAOD_pp_DATA_94X.py
+   runForestAOD_pp_MC_106X.py
+   runForestAOD_pp_DATA_106X.py
 )
 
 for c in ${configs[@]}; do
