@@ -151,10 +151,9 @@ process.forest = cms.Path(
     process.unpackedMuons +
     process.correctedElectrons +
     process.ggHiNtuplizer +
-    process.akCs4PFJetAnalyzer +
-	  process.zdcdigi +
-	  process.QWzdcreco +
-	  process.zdcanalyzer +
+    process.zdcdigi +
+    process.QWzdcreco +
+    process.zdcanalyzer +
     process.muonAnalyzer
     )
 
